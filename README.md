@@ -10,7 +10,7 @@ Enter `concurrent.futures` and the `ProcessPoolExecutor` class. It's a way aroun
 This script uses [pydub](https://pypi.org/project/pydub/) to manipulate audio files.
 For Arch you can [get it from the AUR](https://aur.archlinux.org/packages/python-pydub) or otherwise `pip install pydub`.
 
-By default `min_silence_len=5000` is set to 5000ms (5 secoonds) but you can tune it to whatever floats your boat.
+By default `min_silence_len=5000` is set to 5000ms (5 seconds) but you can tune it to whatever floats your boat.
 
 ## Then:
 `python deadair.py <input_directory> <output_file.mp3>`
