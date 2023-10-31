@@ -7,7 +7,7 @@ Enter `concurrent.futures` and the `ProcessPoolExecutor` class. It's a way aroun
 ![Screenshot htop](screenshot.png)
 
 ## Before You Run:
-This script uses [https://pypi.org/project/pydub/](pydub) to manipulate audio files.
+This script uses [pydub](https://pypi.org/project/pydub/) to manipulate audio files.
 For Arch you can [get it from the AUR](https://aur.archlinux.org/packages/python-pydub) or otherwise `pip install pydub`.
 
 By default `min_silence_len=5000` is set to 5000ms (5 secoonds) but you can tune it to whatever floats your boat.
